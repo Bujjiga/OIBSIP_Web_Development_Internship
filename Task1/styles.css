@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background:url("DairyProducts.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.row{
+  width:100%;
+  padding: 0px 80px;
+}
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: 10px 0px;
+  padding: 10px 0px;
+  position: relative;
+  z-index: 1;
+
+}
+.nav ul{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.nav ul li{
+  list-style: none;
+}
+.nav ul li a{
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+
+}
+.nav ul li a:hover{
+  background-color: #e516de;
+}
+.nav h1{
+    color: rgb(251, 11, 11);
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+   /* background-color:rgb(203, 233, 10);*/
+    margin-top: 10px;
+}
+.content{
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content h1{
+  font-size: 45px;
+  color: #132fae;
+  font-weight: 400;
+}
+.content p{
+  font-size: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  color: rgb(62, 3, 45);
+}
+.content a{
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 200px;
+  font-size: 19px;
+  display:inline-block;
+  letter-spacing: 2px;
+  padding: 12px 20px;
+  background-color: #ef06d4;
+  border-radius: 5px;
+  color:#f7f4f6
+}
+.content a:hover{
+  background-color: #74ba8a;
+}
+.apple{
+  background-color: #ef3f17;
+}
