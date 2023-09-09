@@ -1,0 +1,139 @@
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins',sans-serif;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color:transparent;
+    display: flex;
+    justify-content:space-between;
+    align-items:center ;
+    z-index:100;;
+}
+
+.logo{
+    font-size: 25px;
+    color:#c9178b;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+
+.navbar a:hover , .navbar a.active{
+    color: #00abf0;
+
+}
+
+.home{
+    height: 100vh;
+    background:linear-gradient(-90deg,#031540 65%,#fff 35%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background:#031540;
+    border-radius: 50%;
+    border: 25px solid #fff;
+    outline:25px solid #031540;
+}
+.home-image img{
+    position: relative;
+    width:450px;
+    height:450px;
+    border-radius:50%;
+}
+.home-content{
+    max-width: 600px;
+    color: #fff;
+    text-align:right;
+}
+.project{
+    text-align: center;
+    font-size: 100px;
+    color: #c9178b;
+}
+
+.home-content h1{
+    font-size: 20px;
+}
+
+.home-content h3{
+    font-size: 40px;
+    color: rgb(4, 218, 229);
+    -webkit-text-stroke: .5px #fff;
+}
+ .descri{
+    font-size: 16px;
+    margin-top: 20px;
+ }
+ .project{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+ }
+ .home-sci{
+    margin:25px 0 40px;
+ }
+
+.home-sci a{
+    display: inline-flex;
+    justify-content:center ;
+    align-items:center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border:2 px solod #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+
+}
+.home-sci a:hover{
+    background:#00abf0;
+    color:#fff;
+    border-color: #00abf0;
+    box-shadow: #00abf0;
+}
+.btn{
+    padding:12px 35px;
+    background: #00abf0;
+    border-radius: 40px;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #00abf0;
+    transition: .5s;
+}
+  
+.btn:hover{
+    box-shadow: none;
+}
+.alli{
+    text-align: left;
+    margin-bottom: 200px;
+}
